@@ -39,7 +39,7 @@ class MyComponents extends Component {
        <Flex className={`map-container ${openMapClass}`} justify="center" align="center">
         <LoadScript
           id="script-loader"
-          googleMapsApiKey="AIzaSyD30__JPhmKFr6qzoxbWmYLMgkwEfYbEGg"
+          googleMapsApiKey=key
           onLoad={this.onLoad}
           loadingElement={ <Spinner  speed="0.65s" emptyColor="gray.200" color="blue.500" size="xl" m="0 auto" /> }
         >
