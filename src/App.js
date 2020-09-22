@@ -75,7 +75,7 @@ function mapStateToProps(state) {
 }
 
 const mapDispatchToProps = {
-  loadingData
+  loadingData,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);
