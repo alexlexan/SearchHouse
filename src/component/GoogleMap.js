@@ -50,7 +50,7 @@ class MyComponents extends Component {
       >
         <LoadScript
           id="script-loader"
-          googleMapsApiKey="AIzaSyD30__JPhmKFr6qzoxbWmYLMgkwEfYbEGg"
+          googleMapsApiKey=key
           onLoad={this.onLoad}
           loadingElement={
             <Spinner
@@ -126,4 +126,8 @@ const mapDispatchToProps = {
   closeMap,
 };
 
+<<<<<<< HEAD
 export default connect(mapStateToProps, mapDispatchToProps)(MyComponents);
+=======
+export default connect(mapStateToProps,mapDispatchToProps)(MyComponents)
+>>>>>>> 3b4ec4adcb0f58504af7a3ac7b65856ef88c9b09
